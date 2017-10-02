@@ -1,0 +1,142 @@
+/***************************************************
+   HTML Element Styles
+ ***************************************************/
+
+body {
+  margin: 20px;
+  text-align: center;
+  font-family: verdana, arial, sans-serif;
+  font-size: 0.62em;
+  color: #666;
+  background-color: #EEE;
+}
+
+h1 {
+  clear: both;
+  padding: 8px 5px 8px 10px;
+  margin: 0;  
+  font-size: 2em;
+  font-weight: normal;
+  letter-spacing: -1.5px;
+  color: #4682B4;
+}
+
+#text h1 {
+  background: url(./h1_bg.jpg) no-repeat bottom left;
+}
+
+h2 {
+  clear: both;
+  padding: 0 0 0 5px;
+  margin: 0 0 -10px 0;  
+  font-size: 1.0em;
+  font-weight: normal;
+  color: #4682B4;
+}
+
+p {
+  line-height: 20px;
+  padding: 3px 0 0 0;
+  margin: 3px 0 0 0;
+}
+
+p:first-letter {
+  font-size: 1.2em;
+}
+
+#news p {
+  padding: 8px;
+}
+
+a {
+  color: #87CEEB;
+}
+
+a:hover {
+  color: #326901;
+  background-color: #DDD;
+}
+
+#news   a:hover,
+#footer a:hover {
+  background-color: #CCC;
+}
+
+ul, ol {  
+  padding-bottom: 8px;
+  line-height: 20px;
+}
+
+acronym {
+  border-bottom: 1px solid #BBB;
+  cursor: help;
+}
+
+/***************************************************
+   Site Layout Container:
+ ***************************************************/
+
+#siteBox {
+  width: 640px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/***************************************************
+   Header Styles
+ ***************************************************/
+
+#header {
+  height: 160px;
+  background: url(./city.png) no-repeat top center;
+  horiz-align: left;
+}
+
+#header .title {
+  padding: 10px 0 0 10px;
+  font-size: 4em;
+  line-height: 0.9em;
+  letter-spacing: -1.5px;
+/**  color: #6495ED; **/
+  color: #4682B4;
+  horiz-align: left;
+}
+
+#header .subTitle {
+  padding: 5px 0 0 12px;
+  color: #EEE;
+}
+
+#header .subTitle a {
+  text-decoration: none;
+  color: #EEE;
+}
+
+#header .subTitle a:hover {
+  color: #BBB;
+  background-color: transparent;
+}
+
+/***************************************************
+   Display Classes
+ ***************************************************/
+
+.date {
+  display: block;
+  text-transform: uppercase;
+  color: #4682B4;
+}
+
+img.right {
+  float: right;
+  padding: 3px;
+}
+
+img.left {
+  float: left;
+  padding: 3px;
+}
+
+.grey {
+  color: #AAA;
+}
